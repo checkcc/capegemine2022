@@ -16,7 +16,7 @@ public class AdditionOfTwoNumbers {
 		System.out.println("Enter second number ");
 		int number2=reader.nextInt();
 		
-		int result = number1|+number2;
+		int result = number1+number2;
 		
 		System.out.println("Result of two number is  "+result);
 	}
