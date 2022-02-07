@@ -1,5 +1,20 @@
 package com.demo.threads;
 
+/**
+ * 
+ * The Thread class provides methods to change and get the name of a thread. 
+ * By default, each thread has a name, i.e. thread-0, thread-1 and so on.
+ *  By we can change the name of the thread by using the setName() method.
+ *   The syntax of setName() and getName() methods are given below:
+ * 
+ * 
+ *    CREATION OF THREADS USING  SUPERCLASS "THREAD"
+ * 
+ * */
+
+
+
+// creating  thread by extending Thread super class
 class FirstThread extends Thread {
 
 	Thread t; // refer thread as t as reference
